@@ -2,61 +2,61 @@
   {
     "date": "2021-06-01",
     "profit": 31102,
-    "stores": 850
+    "customer": 850
   },
   {
     "date": "2021-07-01",
     "profit": 31102,
-    "stores": 850
+    "customer": 900
   },
   {
     "date": "2021-08-01",
     "profit": 31102,
-    "stores": 850
+    "customer": 1000
   },
   {
     "date": "2021-09-01",
     "profit": 63924,
-    "stores": 810
+    "customer": 1100
   },
   {
     "date": "2021-10-01",
     "profit": 38144,
-    "stores": 343
+    "customer": 1200
   },
   {
     "date": "2021-11-01",
     "profit": 43991,
-    "stores": 537
+    "customer": 1500
   },
   {
     "date": "2021-12-01",
     "profit": 43781,
-    "stores": 386
+    "customer": 1800
   },
   {
     "date": "2022-01-01",
     "profit": 46242,
-    "stores": 301
+    "customer": 2000
   },
   {
     "date": "2022-02-01",
     "profit": 73986,
-    "stores": 193
+    "customer": 2500
   },
   {
     "date": "2022-03-01",
     "profit": 86522,
-    "stores": 470
+    "customer": 3000
   },
   {
     "date": "2022-04-01",
     "profit": 34534,
-    "stores": 380
+    "customer": 3500
   },
   {
     "date": "2022-05-01",
     "profit": 42001,
-    "stores": 503
+    "customer": 4000
   }
 ]

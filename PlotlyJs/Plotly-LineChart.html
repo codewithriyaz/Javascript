@@ -8,13 +8,13 @@
       window.onload = plotGraph();
       async function plotGraph() {
         const apiUrl =
-          "https://mocki.io/v1/31599c37-66ca-4011-a77d-38f373057c06";
+          "https://mocki.io/v1/1a9ba55f-87b1-411e-8c51-73fb3208a140";
         const response = await fetch(apiUrl);
         const data = await response.json();
         console.log(data);
         const date = _.map(data, "date");
         const profits = _.map(data, "profit");
-        const stores = _.map(data, "stores");
+        const customers = _.map(data, "customer");
         const chartElement = document.getElementById("chart");
         const config = {
           responsive: true,
@@ -29,8 +29,8 @@
         };
         const trace2 = {
           x: date,
-          y: stores,
-          name: "Stores",
+          y: customers,
+          name: "Customer",
           type: "scatter",
           yaxis: "y2",
         };
@@ -38,6 +38,10 @@
         traces.push(trace2);
         const layout = {
           showlegend: true,
+          legend: {
+            x: 1.05,
+            y: 1,
+          },
           width: 850,
           height: 500,
           margin: {
@@ -57,7 +61,7 @@
             showgrid: true,
           },
           yaxis2: {
-            title: "Stores",
+            title: "Customer",
             overlaying: "y",
             showline: false,
             showgrid: false,
